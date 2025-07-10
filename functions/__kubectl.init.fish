@@ -173,9 +173,6 @@ function __kubectl.init
   __kubectl.create_abbr kge      kubectl get events
   __kubectl.create_abbr kgea     kubectl get events --all-namespaces
   __kubectl.create_abbr kgew     kubectl get events --watch
-  __kubectl.create_abbr kee      kubectl edit events
-  __kubectl.create_abbr kde      kubectl describe events
-  __kubectl.create_abbr kdele    kubectl delete events
 
   # Cleanup declared functions
   functions -e __kubectl.create_abbr
